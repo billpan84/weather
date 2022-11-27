@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float y;
+    printf("Enter a Kelsioum Degrees: ");
+    scanf("%f", &y);
+    y = y + 273.15;// o tipos gia tin metatropi apo kelsiou se kelvin
+
+    printf("the Kelvin degrees is:%f\n ", y);
+   
+    return 0;
+}
